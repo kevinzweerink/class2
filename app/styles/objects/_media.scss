@@ -1,0 +1,38 @@
+.media {
+	background-color: #c36262;
+	overflow: hidden;
+	line-height: 1.4;
+		
+	.img {
+		float: left;
+		padding: 10px;
+		background-color: #7bc1ed;
+		margin-right: 5%;
+	}
+	
+	.text {
+		overflow: hidden;
+		background-color:#f9ffc4;
+	}
+	
+	&.alt {
+		
+		.img {
+			float: right;
+			margin-left: 5%;
+			margin-right: 0;
+		}
+		
+	}
+	
+	&.small {
+		font-size: .8em;
+	}
+	
+}
+
+.media.small {
+	.img {
+		width: 50px;
+	}
+}
